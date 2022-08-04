@@ -1,0 +1,16 @@
+.tooltip {
+  position: absolute;
+  z-index: 10;
+}
+
+.show-tooltip {
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+.hide-tooltip {
+  background-color: white;
+  color: black;
+  display: none;
+}
