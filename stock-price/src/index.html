@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Stock Price - Stencil</title>
+
+  <script type="module" src="/build/stock-price.esm.js"></script>
+  <script nomodule src="/build/stock-price.js"></script>
+  <style>
+    html {
+      --color-primary: #3b013b;
+      --color-primary-inverse: white;
+      --colr-primary-highlight: #750175;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Stock Picker Web Components using Stencil</h2>
+  <uc-stock-price stock-symbol="AAPL"></uc-stock-price>
+  <uc-stock-finder></uc-stock-finder>
+
+  <script>
+    // const stockFinderEl = document.querySelector('uc-stock-finder');
+    // stockFinderEl.addEventListener('ucSymbolSelected', (e) => {
+    //   console.log('Symbol Selected Event Fired', e);
+    // });
+
+    // const bodyEl = document.querySelector('body');
+    // bodyEl.addEventListener('ucSymbolSelected', (e) => {
+    //   console.log('Symbol Selected Event Fired - Body', e);
+    // });
+  </script>
+</body>
+
+</html>

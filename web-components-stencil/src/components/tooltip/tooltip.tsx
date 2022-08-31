@@ -4,6 +4,7 @@ import { Component, Prop, State, h } from '@stencil/core';
   tag: 'uc-tooltip',
   styleUrl: 'tooltip.css',
   shadow: true
+  // scoped: true
 })
 export class Tooltip {
   @State() tooltipShown = false;
